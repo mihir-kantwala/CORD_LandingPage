@@ -1,0 +1,19 @@
+.threeBordeRounded {
+  border-radius: 100px 100px 100px 0;
+  border-color: rgb(145, 145, 145);
+}
+
+.card-1-radius {
+  border-radius: 200px 500px 500px 200px;
+}
+
+.threeBordeRounded-witoutcolor {
+  border-radius: 100px 100px 100px 0;
+  text-decoration: underline;
+
+  text-decoration-color: rgb(85, 85, 85);
+}
+
+.logo-font {
+  font-family: cursive;
+}

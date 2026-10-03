@@ -16,7 +16,7 @@ export default function LastSection() {
 
             <p className="max-w-md">
               Explore our{' '}
-              <span className="inline-block max-w-full border  p-2 threeBordeRounded-witoutcolor ">
+              <span className="inline-block max-w-full  bg-white border-none py-1 px-3 threeBordeRounded-witoutcolor ">
                 collaboration Guides
               </span>{' '}
               to play around with adding Cord to your product today.
@@ -31,7 +31,7 @@ export default function LastSection() {
             <h1 className="text-6xl mb-5">Pricing</h1>
             <p>
               Get for free or see our{' '}
-              <span className="inline-block max-w-full border  p-2 threeBordeRounded-witoutcolor   ">
+              <span className="inline-block max-w-full border bg-white border-none  py-1 px-3 threeBordeRounded-witoutcolor   ">
                 Pricing
               </span>{' '}
               for the package that suits you

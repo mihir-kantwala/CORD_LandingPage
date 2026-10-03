@@ -11,7 +11,7 @@ export default function Navbar() {
     >
       <Container>
         <div className="flex items-center justify-between">
-          <span className="logo-font font-semibold text-2xl text-white bg-black px-2 threeBordeRounded box-shadow4">
+          <span className=" font-extrabold text-2xl text-white bg-black px-2 threeBordeRounded box-shadow4">
             GSAP
           </span>
 

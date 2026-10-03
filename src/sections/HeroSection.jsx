@@ -24,7 +24,8 @@ export default function HeroSection() {
               data-aos="fade-up"
               className="inline-block bg-white max-w-full border border-black px-6 threeBordeRounded pb-4 pt-3 box-shadow3"
             >
-              Get teams talking
+              {/* Get teams talking */}
+              Every thing Animated
             </span>
 
             <br />

@@ -6,7 +6,7 @@ export default function Footer() {
     <footer className="bg-black text-white ">
       <Container className="h-full py-15 ">
         <div className="flex gap-10 ">
-          <div className="w-1/3 text-9xl logo-font">CROD</div>
+          <div className="w-1/3 text-9xl font-extrabold">GSAP</div>
           <div className="flex grow justify-between text-sm">
             <div>
               <h3 className="font-semibold">Company</h3>

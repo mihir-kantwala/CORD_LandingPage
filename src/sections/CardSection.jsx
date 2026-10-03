@@ -11,19 +11,38 @@ export default function CardSection() {
     <section>
       <Container className="h-screen py-25">
         <div className="h-full grid grid-cols-3 grid-rows-2 gap-8 ">
-          <div className=" rounded-[50px] overflow-hidden box-shadow2 ">
+          <div
+            data-aos="fade-up"
+            className=" rounded-[50px] overflow-hidden box-shadow2  "
+          >
             <img src={image1} className="w-full h-full object-cover" />
           </div>
-          <div className="  rounded-[50px] overflow-hidden box-shadow2 ">
+          <div
+            data-aos="fade-up"
+            data-aos-delay="100"
+            className="  rounded-[50px] overflow-hidden box-shadow2 "
+          >
             <img src={image2} className="w-full h-full object-cover" />
           </div>
-          <div className="  rounded-[50px] overflow-hidden box-shadow2 ">
+          <div
+            data-aos="fade-up"
+            data-aos-delay="200"
+            className="  rounded-[50px] overflow-hidden box-shadow2 "
+          >
             <img src={image3} className="w-full h-full object-cover" />
           </div>
-          <div className="  rounded-[50px] overflow-hidden box-shadow2 ">
+          <div
+            data-aos="fade-up"
+            data-aos-delay="300"
+            className="  rounded-[50px] overflow-hidden box-shadow2 "
+          >
             <img src={image4} className="w-full h-full object-cover" />
           </div>
-          <div className="col-start-3 row-start-1 row-span-2  rounded-[50px] overflow-hidden box-shadow2 ">
+          <div
+            data-aos="fade-up"
+            data-aos-delay="300"
+            className="col-start-3 row-start-1 row-span-2  rounded-[50px] overflow-hidden box-shadow2 "
+          >
             <img src={image5} className="w-full h-full object-cover" />
           </div>
         </div>

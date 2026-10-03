@@ -1,14 +1,17 @@
 import Container from '../components/Container';
 import GetStartedButton from '../components/GetStartedButton';
-import image1 from '../assets/section6img.jfif';
+import image1 from '../assets/section6img.png';
 import '../styles/HeroSection.css';
 
 export default function CardSectionTwo() {
   return (
     <section>
-      <Container className="h-screen p-15">
-        <div className="h-full flex justify-center bg-[#e7e7e7] rounded-4xl box-shadow">
-          <div className="w-1/2 flex py-15">
+      <Container className="h-screen p-25">
+        <div
+          data-aos="fade-up"
+          className="h-full flex justify-center bg-[#e7e7e7] rounded-4xl box-shadow"
+        >
+          <div className="w-1/2 ">
             <img
               src={image1}
               alt="Chat Image"
@@ -18,11 +21,20 @@ export default function CardSectionTwo() {
 
           <div className=" flex w-1/2 flex-col justify-center items-start gap-6 p-25">
             <div className="text-xl">
-              <span className="inline-block max-w-full border bg-black text-white border-black px-4 threeBordeRounded pb-2 pt-1">
+              <span
+                data-aos="fade-up"
+                data-aos-delay="100"
+                className="inline-block max-w-full border bg-black text-white border-black px-4 threeBordeRounded pb-2 pt-1"
+              >
                 Bye vs Build makes sence
               </span>
             </div>
-            <div>
+            <div
+              data-aos="fade-zoom-in"
+              data-aos-easing="ease-in-back"
+              data-aos-delay="200"
+              data-aos-offset="0"
+            >
               <p className="border-[#b6b6b6]  text-sm border-l-3 pl-4  ">
                 "I had to explain to our CEO why we buy and not build
                 in-house... Once I showed him the demo, with all the features he
@@ -33,7 +45,11 @@ export default function CardSectionTwo() {
               </span>
             </div>
 
-            <div className="flex gap-5 items-baseline">
+            <div
+              data-aos="fade-up"
+              data-aos-delay="300"
+              className="flex gap-5 items-baseline"
+            >
               <GetStartedButton name="View the Docs" className="text-md" />
             </div>
           </div>

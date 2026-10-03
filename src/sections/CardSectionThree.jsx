@@ -6,8 +6,11 @@ import '../styles/HeroSection.css';
 export default function CardSectionThree() {
   return (
     <section>
-      <Container className="h-screen p-15">
-        <div className="h-full flex justify-center bg-[#e7e7e7] rounded-4xl box-shadow">
+      <Container className="h-screen p-25">
+        <div
+          data-aos="fade-up"
+          className="h-full flex justify-center bg-[#e7e7e7] rounded-4xl box-shadow"
+        >
           <div className="w-1/2 flex items-start py-15">
             <img
               src={image1}
@@ -18,11 +21,20 @@ export default function CardSectionThree() {
 
           <div className=" flex w-1/2 flex-col justify-center items-start gap-6 p-25">
             <div className="text-xl">
-              <span className="inline-block max-w-full border bg-black text-white border-black px-4 threeBordeRounded pb-2 pt-1  box-shadow4">
+              <span
+                data-aos="fade-up"
+                data-aos-delay="100"
+                className="inline-block max-w-full border bg-black text-white border-black px-4 threeBordeRounded pb-2 pt-1  box-shadow4"
+              >
                 Expetert in Collabration
               </span>
             </div>
-            <div>
+            <div
+              data-aos="fade-zoom-in"
+              data-aos-easing="ease-in-back"
+              data-aos-delay="100"
+              data-aos-offset="0"
+            >
               <p className="border-[#b6b6b6]  text-sm border-l-3 pl-4  ">
                 "Cord's collabration experience is leap ahead of waht we could
                 have built in house."
@@ -32,7 +44,11 @@ export default function CardSectionThree() {
               </span>
             </div>
 
-            <div className="flex gap-5 items-baseline">
+            <div
+              data-aos="fade-up"
+              data-aos-delay="200"
+              className="flex gap-5 items-baseline"
+            >
               <GetStartedButton
                 name="Start building collabration"
                 className="text-md  box-shadow4"

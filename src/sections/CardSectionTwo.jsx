@@ -1,18 +1,18 @@
 import Container from '../components/Container';
 import GetStartedButton from '../components/GetStartedButton';
-import image1 from '../assets/Button.jfif';
+import image1 from '../assets/section6img.jfif';
 import '../styles/HeroSection.css';
 
 export default function CardSectionTwo() {
   return (
     <section>
       <Container className="h-screen p-15">
-        <div className="h-full flex justify-center bg-[#e7e7e7] rounded-4xl ">
-          <div className="w-1/2 flex justify-center items-center p-15">
+        <div className="h-full flex justify-center bg-[#e7e7e7] rounded-4xl box-shadow">
+          <div className="w-1/2 flex py-15">
             <img
               src={image1}
               alt="Chat Image"
-              className="rounded-4xl w-full h-full object-cover"
+              className="rounded-r-4xl w-full h-full object-cover"
             />
           </div>
 

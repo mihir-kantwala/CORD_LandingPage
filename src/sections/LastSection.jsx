@@ -6,7 +6,7 @@ export default function LastSection() {
     <section>
       <Container className="h-full p-25">
         <div className="flex gap-8">
-          <div className=" grow bg-[#2ddfa9] card-1-radius p-10">
+          <div className=" grow bg-[#2ddfa9] card-1-radius p-10  box-shadow2">
             <h1 className="text-6xl mb-5">Start Building</h1>
 
             <p className="max-w-md">
@@ -17,7 +17,7 @@ export default function LastSection() {
               to play around with adding Cord to your product today.
             </p>
           </div>
-          <div className="w-1/4 bg-[#d8d8d8] rounded-[50px] p-10">
+          <div className="w-1/4 bg-[#d8d8d8] rounded-[50px] p-10  box-shadow2">
             <h1 className="text-6xl mb-5">Pricing</h1>
             <p>
               Get for free or see our{' '}

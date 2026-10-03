@@ -1,24 +1,24 @@
 import Container from '../components/Container';
 import GetStartedButton from '../components/GetStartedButton';
-import image1 from '../assets/ChatImage.jpg';
+import image1 from '../assets/section2img.png';
 import '../styles/HeroSection.css';
 
 export default function CardSectionThree() {
   return (
     <section>
       <Container className="h-screen p-15">
-        <div className="h-full flex justify-center bg-[#e7e7e7] rounded-4xl ">
-          <div className="w-1/2 flex items-start py-20">
+        <div className="h-full flex justify-center bg-[#e7e7e7] rounded-4xl box-shadow">
+          <div className="w-1/2 flex items-start py-15">
             <img
               src={image1}
               alt="Chat Image"
-              className="rounded-2xl w-full h-full object-cover"
+              className="rounded-r-2xl w-full h-full object-cover"
             />
           </div>
 
           <div className=" flex w-1/2 flex-col justify-center items-start gap-6 p-25">
             <div className="text-xl">
-              <span className="inline-block max-w-full border bg-black text-white border-black px-4 threeBordeRounded pb-2 pt-1">
+              <span className="inline-block max-w-full border bg-black text-white border-black px-4 threeBordeRounded pb-2 pt-1  box-shadow4">
                 Expetert in Collabration
               </span>
             </div>
@@ -35,7 +35,7 @@ export default function CardSectionThree() {
             <div className="flex gap-5 items-baseline">
               <GetStartedButton
                 name="Start building collabration"
-                className="text-md"
+                className="text-md  box-shadow4"
               />
             </div>
           </div>

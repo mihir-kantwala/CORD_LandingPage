@@ -1,20 +1,30 @@
 import Container from '../components/Container';
 import '../styles/HeroSection.css';
-import image1 from '../assets/Chat Group Sticker PNG Images (Transparent HD Photo Clipart).jfif';
+import image2 from '../assets/iamge1.jfif';
+import image1 from '../assets/image2.jfif';
+import image3 from '../assets/image3.jfif';
+import image4 from '../assets/image4.jfif';
+import image5 from '../assets/image5.jfif';
 
 export default function CardSection() {
   return (
     <section>
       <Container className="h-screen py-25">
         <div className="h-full grid grid-cols-3 grid-rows-2 gap-8 ">
-          <div className="bg-[#bebebe] rounded-[50px]">
+          <div className=" rounded-[50px] overflow-hidden box-shadow2 ">
             <img src={image1} className="w-full h-full object-cover" />
           </div>
-          <div className=" bg-[#4aff62] rounded-[50px]">img 2</div>
-          <div className=" bg-[#849aff] rounded-[50px]">img 3</div>
-          <div className=" bg-[#dbdbdb] rounded-[50px]">img 4</div>
-          <div className="col-start-3 row-start-1 row-span-2 bg-[#ff8080] rounded-[50px]">
-            img 5
+          <div className="  rounded-[50px] overflow-hidden box-shadow2 ">
+            <img src={image2} className="w-full h-full object-cover" />
+          </div>
+          <div className="  rounded-[50px] overflow-hidden box-shadow2 ">
+            <img src={image3} className="w-full h-full object-cover" />
+          </div>
+          <div className="  rounded-[50px] overflow-hidden box-shadow2 ">
+            <img src={image4} className="w-full h-full object-cover" />
+          </div>
+          <div className="col-start-3 row-start-1 row-span-2  rounded-[50px] overflow-hidden box-shadow2 ">
+            <img src={image5} className="w-full h-full object-cover" />
           </div>
         </div>
       </Container>

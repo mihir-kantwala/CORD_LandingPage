@@ -84,7 +84,7 @@ export default function CollabSection() {
           </p>
         </div>
 
-        <div data-aos="fade-up">
+        <div data-aos="zoom-in-up">
           <img
             ref={emojiRef}
             src={emoji}

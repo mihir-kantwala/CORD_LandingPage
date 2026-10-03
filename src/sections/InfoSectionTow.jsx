@@ -80,7 +80,7 @@ export default function InfoSectionTow() {
             natively into your product's workflow.
           </p>
         </div>
-        <div className=" flex justify-center">
+        <div data-aos="zoom-in-up" className=" flex justify-center">
           <img ref={emojiRef} src={sideimg} className="glow-icon" />
         </div>
       </Container>
